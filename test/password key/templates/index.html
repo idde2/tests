@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>password</title>
+  <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+
+<a class="eingabe" href="/eingabe">neues passwort</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>username</th>
+            <th>password</th>
+        </tr>
+    </thead>
+
+    <tbody id="tbody">
+        {% for id, user_name, password in daten %}
+        <tr>
+            <td>{{ id }}</td>
+            <td class="copy" data-value="{{ user_name }}">{{ user_name }}</td>
+            <td class="copy" data-value="{{ password }}">{{ password }}</td>
+
+        </tr>
+        {% endfor %}
+    </tbody>
+
+
+</table>
+
+
+  <script src="/static/js/index.js"></script>
+</body>
+</html>

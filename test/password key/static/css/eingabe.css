@@ -1,0 +1,44 @@
+body {
+    background-color: #555;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+.form-container {
+    background-color: #666;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    width: 90%;
+    max-width: 420px;
+    transition: background 0.3s;
+}
+
+input{
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+.button2 {
+    width: 100%;
+    padding: 14px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
