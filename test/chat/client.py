@@ -3,7 +3,7 @@ import threading
 import tkinter as tk
 from tkinter import scrolledtext
 
-HOST = "192.168.178.85"
+HOST = "192.168.0.6"
 PORT = 5000
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
